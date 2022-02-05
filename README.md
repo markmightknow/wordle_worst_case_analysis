@@ -5,7 +5,7 @@ This is for the general case where you assume all 12,972 valid wordle words coul
 
 There is some good discussion of the problem here: https://puzzling.stackexchange.com/questions/114316/whats-the-optimal-strategy-for-wordle
 
-The discovered solution starts at the word LARNT and can be found in full in the wordle_tree_larnt_lte_6_20220201.txt file.
+The discovered solution starts at the word LARNT and can be found in full in the wordle_tree_larnt_lte_6_20220205.txt file.
 
 0 denotes grey, 1 denotes yellow, 2 denotes green in the file.
 
