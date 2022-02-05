@@ -46,7 +46,7 @@ def wordl_score(guess, solution):
             res[i] = 2
         else:
             for j, guessed_letter in enumerate(guess):
-                if guessed_letter == letter:
+                if (guessed_letter == letter) and (solution[j] != letter):
                     if res[j] == 0:
                         res[j] = 1
                         break
